@@ -33,29 +33,29 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="es-init" target="8" />
+      <module name="es-init" target="1.8" />
       <module name="file-starter" target="1.8" />
       <module name="freemarker-demo" target="1.8" />
       <module name="kafka-demo" target="1.8" />
       <module name="leadnews" target="1.8" />
-      <module name="leadnews-admin" target="8" />
+      <module name="leadnews-admin" target="1.8" />
       <module name="leadnews-admin-gateway" target="1.8" />
       <module name="leadnews-app-gateway" target="1.8" />
-      <module name="leadnews-article" target="8" />
+      <module name="leadnews-article" target="1.8" />
       <module name="leadnews-basic" target="1.8" />
-      <module name="leadnews-behavior" target="8" />
-      <module name="leadnews-comment" target="8" />
+      <module name="leadnews-behavior" target="1.8" />
+      <module name="leadnews-comment" target="1.8" />
       <module name="leadnews-common" target="1.8" />
-      <module name="leadnews-feign-api" target="8" />
+      <module name="leadnews-feign-api" target="1.8" />
       <module name="leadnews-gateway" target="1.8" />
       <module name="leadnews-model" target="1.8" />
-      <module name="leadnews-schedule" target="8" />
-      <module name="leadnews-search" target="8" />
-      <module name="leadnews-service" target="8" />
+      <module name="leadnews-schedule" target="1.8" />
+      <module name="leadnews-search" target="1.8" />
+      <module name="leadnews-service" target="1.8" />
       <module name="leadnews-test" target="1.8" />
-      <module name="leadnews-user" target="8" />
+      <module name="leadnews-user" target="1.8" />
       <module name="leadnews-utils" target="1.8" />
-      <module name="leadnews-wemedia" target="8" />
+      <module name="leadnews-wemedia" target="1.8" />
       <module name="leadnews-wemedia-gateway" target="1.8" />
       <module name="minio-demo" target="1.8" />
       <module name="mongo-demo" target="1.8" />
@@ -70,6 +70,7 @@
       <module name="freemarker-demo" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
       <module name="leadnews" options="" />
+      <module name="leadnews-admin" options="-parameters" />
       <module name="leadnews-admin-gateway" options="-parameters" />
       <module name="leadnews-app-gateway" options="-parameters" />
       <module name="leadnews-article" options="-parameters" />

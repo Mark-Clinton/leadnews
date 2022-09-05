@@ -5,8 +5,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="新闻头条项目">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/util/AppJwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leadnews-model/src/main/java/com/heima/model/admin/dtos/AdUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leadnews-model/src/main/java/com/heima/model/admin/pojos/AdUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/com/heima/file/config/MinIOConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/com/heima/file/config/MinIOConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/com/heima/file/service/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-basic/file-starter/target/classes/com/heima/file/service/impl/MinIOFileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-admin/src/main/java/com/heima/admin/controller/v1/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-service/leadnews-admin/src/main/java/com/heima/admin/controller/v1/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-admin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-service/leadnews-admin/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-admin/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-service/leadnews-admin/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-admin/target/classes/com/heima/admin/controller/v1/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/leadnews-service/leadnews-admin/target/classes/com/heima/admin/controller/v1/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/ArticleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/config/KafkaStreamConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/config/XxlJobConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/controller/v1/ApCollectionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/controller/v1/ArticleHomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/controller/v1/ArticleInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/feign/ArticleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/interceptor/AppTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/job/ComputeHotArticleJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/listener/ArticleIncrHandleListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/listener/ArticleIsDownListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/mapper/ApArticleConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/mapper/ApArticleContentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/mapper/ApArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/ApArticleConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/ApArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/ApCollectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/ArticleFreemarkerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/HotArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/impl/ApArticleConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/impl/ApArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/impl/ApCollectionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/impl/ArticleFreemarkerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/service/impl/HotArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/stream/HotArticleStreamHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/stream/HotArticleStreamHandler$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/stream/HotArticleStreamHandler$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/com/heima/article/stream/HotArticleStreamHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/mapper/ApArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/classes/templates/article.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/test-classes/com/heima/article/service/impl/HotArticleServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-article/target/test-classes/com/heima/article/test/ArticleFreemarkerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/BehaviorApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/controller/v1/ApLikesBehaviorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/controller/v1/ApReadBehaviorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/controller/v1/ApUnlikesBehaviorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/interceptor/AppTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/ApFollowBehaviorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/ApLikesBehaviorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/ApReadBehaviorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/ApUnlikesBehaviorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/impl/ApFollowBehaviorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/impl/ApLikesBehaviorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/impl/ApReadBehaviorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-behavior/target/classes/com/heima/behavior/service/impl/ApUnlikesBehaviorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/CommentApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/controller/v1/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/controller/v1/CommentRepayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/interceptor/AppTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/ApComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/ApCommentLike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/ApCommentRepay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/ApCommentRepayLike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/CommentRepayVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/pojos/CommentVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/CommentHotService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/CommentRepayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/impl/CommentHotServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/impl/CommentRepayServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-comment/target/classes/com/heima/comment/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/ScheduleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/feign/ScheduleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/mapper/TaskinfoLogsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/mapper/TaskinfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/service/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/com/heima/schedule/service/impl/TaskServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/classes/mapper/TaskinfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/test-classes/com/heima/schedule/service/impl/TaskServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/test-classes/com/heima/schedule/test/RedisTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-schedule/target/test-classes/com/heima/schedule/test/RedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/SearchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/config/ElasticSearchConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/controller/v1/ApAssociateWordsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/controller/v1/ApUserSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/controller/v1/ArticleSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/interceptor/AppTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/listener/SyncArticleListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/pojos/ApAssociateWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/pojos/ApUserSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/ApAssociateWordsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/ApUserSearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/ArticleSearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/impl/ApAssociateWordsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/impl/ApUserSearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/classes/com/heima/search/service/impl/ArticleSearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-search/target/test-classes/com/heima/search/test/ArticleESTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/config/InitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/controller/v1/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/controller/v1/WmMaterialController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/controller/v1/WmNewsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/controller/v1/WmchannelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/feign/WemediaClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/interceptor/WmTokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmChannelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmMaterialMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmNewsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmNewsMaterialMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmChannelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmMaterialService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmNewsAutoScanService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmNewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmNewsTaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/WmUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmChannelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmMaterialServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmNewsAutoScanServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmNewsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmNewsTaskServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/test-classes/com/heima/wemedia/service/WmNewsAutoScanServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/test-classes/com/heima/wemedia/test/AliyunTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leadnews-service/leadnews-wemedia/target/test-classes/com/heima/wemedia/test/ReptilesArticleData.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +244,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dynamic.classpath" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-gateway/leadnews-admin-gateway/src/main/java/com/heima/admin/gateway" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -114,11 +256,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\heima-leadnews\leadnews-gateway\leadnews-admin-gateway\src\main\java\com\heima\admin\gateway" />
+      <recent name="F:\workspace\heima-leadnews\leadnews-model\src\main\java\com\heima\model" />
       <recent name="F:\workspace\heima-leadnews" />
       <recent name="F:\workspace\heima-leadnews\heima-leadnews-gateway\heima-leadnews-admin-gateway\src\main\java\com\heima\admin\gateway" />
       <recent name="F:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\resources\mapper" />
-      <recent name="F:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-user\src\main\java\com\heima\user\service\impl" />
-      <recent name="F:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-user\src\main\java\com\heima\user\service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -143,7 +285,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WemediaApplication">
+  <component name="RunManager" selected="Spring Boot.AppGatewayApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -151,6 +293,45 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.article.ArticleApplication" />
+      <module name="leadnews-article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-admin-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.admin.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.admin.gateway.AdminGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,40 +350,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BehaviorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="leadnews-behavior" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.behavior.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.behavior.BehaviorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="leadnews-search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.search.SearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="leadnews-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,6 +366,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.WemediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WemediaGatewayAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-wemedia-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.wemedia.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.gateway.WemediaGatewayAplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,18 +402,20 @@
       <item itemvalue="Spring Boot.XxlJobApplication-2" />
       <item itemvalue="Spring Boot.ArticleApplication" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
-      <item itemvalue="Spring Boot.BehaviorApplication" />
-      <item itemvalue="Spring Boot.SearchApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.AdminGatewayApplication" />
+      <item itemvalue="Application.ArticleApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.WemediaGatewayAplication" />
       <item itemvalue="Spring Boot.WemediaApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.WemediaApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.SearchApplication" />
-        <item itemvalue="Spring Boot.BehaviorApplication" />
-        <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="Spring Boot.WemediaGatewayAplication" />
+        <item itemvalue="Application.ArticleApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662368363881</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新闻头条项目">
+      <created>1662369077305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662369077305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
