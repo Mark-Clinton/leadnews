@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>leadnews-test</artifactId>
+        <artifactId>leadnews-service</artifactId>
         <groupId>com.heima</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xxljob-demo</artifactId>
+    <artifactId>leadnews-wemedia</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,15 +18,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.heima</groupId>
+            <artifactId>file-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <!--xxl-job-->
         <dependency>
-            <groupId>com.xuxueli</groupId>
-            <artifactId>xxl-job-core</artifactId>
-            <version>2.3.0</version>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.13.1</version>
         </dependency>
     </dependencies>
 

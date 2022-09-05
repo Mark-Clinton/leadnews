@@ -87,22 +87,22 @@
         <dependencies>
             <!--内部依赖工程-->
             <dependency>
-                <artifactId>heima-leadnews-feign-api</artifactId>
+                <artifactId>leadnews-feign-api</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <artifactId>heima-leadnews-common</artifactId>
+                <artifactId>leadnews-common</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <artifactId>heima-leadnews-model</artifactId>
+                <artifactId>leadnews-model</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <artifactId>heima-leadnews-utils</artifactId>
+                <artifactId>leadnews-utils</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
